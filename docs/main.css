@@ -1,0 +1,435 @@
+ /********************************************* GENERAL  *********************************************************************/ 
+ body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #323232;
+    background-color: #fff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+ * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+  background-size: cover;
+  background: url(img/Website-Pics/Banner-1.jpg) no-repeat fixed center;
+  width: auto;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+header:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 96px solid #fff;
+  border-left: 1929px solid transparent;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color:transparent;
+    color: #fff;
+    padding:1% 0;
+    font-size: 1.2em;
+    border:0;
+  }
+.current:hover{
+    background-color: blue;
+  }
+
+   /*.navbar-brand{
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 15px;
+  }
+*/
+  .navbar-inverse .navbar-nav .active a,
+  .navbar-inverse .navbar-nav .active a:focus,
+  .navbar-inverse .navbar-nav .active a :hover{
+    color: #2644BC;
+    background-color: transparent;
+  }
+  .navbar-inverse .navbar-nav .active a:hover{
+    background:transparent;
+  }
+
+   .navbar-inverse .navbar-nav li a{
+    color:#fff;
+  }
+   .navbar-inverse .navbar-nav li a:hover{
+    color:#2644BC;
+  }
+
+
+
+
+
+/********************************************* HEADER CONTENT *********************************************************************/
+
+                                               /******* LOGO *****/
+.headerImg{
+  width: 50%;
+    margin: 13em auto 0;
+}
+
+
+
+                                               /******* BUTTON *****/
+
+  .btn{
+    margin-top: 2em;
+    padding: 1.5rem 3rem;
+  }
+  .btn-one{
+    background-color: #fff;
+    color:#2644BC;
+    font-weight: 600;
+    border-color: #fff;
+    transition: all .5s;
+  }
+  .btn-one:hover{
+    background-color: #3BEBDE;
+    color:#fff;
+    font-weight: 600;
+    border-color:#3BEBDE; 
+  }
+
+/********************************************* SECTION ONE *********************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width:0 ){
+
+    /**********HEADER BACKGROUND ***********/
+        header{
+          background-size: cover;
+          background: url(img/Website-Pics/Banner-1.jpg) no-repeat fixed center;
+          width: auto;
+          height: auto;
+          overflow: hidden;
+          position: relative;
+        }
+        header:before{
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          border-bottom: 96px solid #fff;
+          border-left: 1929px solid transparent;
+        }
+
+    /***************** HEADER BUTTON ***********/
+          .btn{
+          margin-top: 2em;
+          padding: 1rem 2rem;
+          margin-bottom: 5em;
+        }
+
+
+    /***************** HEADER CONTENT ***********/
+        .headerImg{
+          width: 50%;
+            margin: 5em auto 0;
+        }
+       .navbar-content{
+          display: none;
+          transition: all .3s ease-out;
+        }
+        .otherClass{
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          margin:0;
+          background-color: rgba(0,0,0,.3);
+        }
+        .nav>li{
+          /*background-color: rgba(0,0,0,.5);*/
+          padding: 3px;
+          display: block;
+          border-radius: 3px;
+          /*float: left;*/
+          /*padding: .5em;*/
+        }
+       
+        .nav ul li:hover{
+          color: #fff;
+        }
+        .burger{
+          width: 25px;
+          height: 25px;
+          position: absolute;
+          right: 25px;
+          top: 27px;
+          z-index: 10;
+        }
+        .burger::before{
+        content: "";
+        width: 25px;
+        height: 4px; 
+        top:0;
+        position: absolute;
+        background-color: #fff;
+        transform-origin: 0 0;
+        transition: transform .3s ease-out;
+      }
+
+      .burger-middle{
+        width: 25px;
+        height: 4px; 
+        top: 11px;
+        position: absolute;
+        background-color: #fff;
+        transition: all .3s ease-out;
+      }
+
+        .burger::after{
+        content: "";
+        width: 25px;
+        height: 4px; 
+        bottom: 0;
+        position: absolute;
+        background-color: #fff;
+        transform-origin: 0 100%;
+        transition: transform .3s ease-out;
+      }
+
+      .icon-display::before{
+        transform:rotate(45deg) scaleX(1.25);
+
+      }
+
+      .icon-display::after{
+        transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+      }
+
+
+      .icon-display div{
+        opacity: 0;
+      }
+
+
+      /********** SECTION ONE ********************/
+      .section-one{
+        margin-top: 3em;
+      }
+      .section-one-header ,.section-two-header{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+      }
+
+      .section-one p,.section-one ul li{
+        font-size: 1.2em;
+      }
+
+      .section-one ul li{
+        list-style:lower-roman;
+      }
+
+      .section-one-photo-text{
+        margin-top:1em;
+      }
+      .quote{
+        margin-bottom: 1px;
+      }
+
+      /********** SECTION TWO ********************/
+      .section-two{
+        margin-top: 5em;
+      }
+      .names{
+        font-size: 1.5em;
+      }
+       /********** SECTION THREE ********************/
+       .section-three-content{
+        background-size: cover;
+        background: url(img/Website-Pics/Testimonials.jpg) no-repeat fixed center center;
+       }
+       .item{
+        color:#fff;
+        margin: 5em 0;
+       }
+       .testimonial-pic{
+        margin:0 auto 5px auto;
+       }
+       /************ IMAGE SLIDE **********/
+    .swiper-container {
+      margin-top: 3em;
+      width: auto;
+      height: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background:#fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-pagination{
+      margin-top:50px;
+      background-color: rgba(0,0,0,.3);
+    }
+
+    /********************FOOTER**************/
+    footer{
+    margin-top: 3em;
+    width: 100%;
+    color: #fff;
+    background-color: #5e4485;
+    padding: 5%;
+  }
+
+  .fa, .footer{
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+  }
+  .fa:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+  }
+  .footer{
+    width: 120px;
+  }
+}
+
+
+@media(min-width: 800px){
+
+  /********** HEADER ********************/
+        .navbar-content{
+          display: block;
+        }
+
+        .burger{
+          display: none;
+        }
+        ul li{
+          border-bottom: none;
+          left: 0;
+        }
+        .nav>li{
+          background-color:transparent;
+          padding: 0;
+          display: block;
+          border-radius:0;
+        }
+      header{
+      background-size: cover;
+      background: url(img/Website-Pics/Banner-1.jpg) no-repeat fixed center;
+      width: auto;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+    }
+    header:before{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      border-bottom: 96px solid #fff;
+      border-left: 1929px solid transparent;
+    }
+    .navbar-brand{
+      float:none;
+      display: block;
+      padding: 5px;
+    }
+
+    /*********** SECTION ONE *************/
+     .section-one{
+        margin-top: 5em;
+        color:#777777;
+      }
+     .section-one-header{
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        margin-bottom: 1em;
+
+      }
+    .section-one-photo{
+      margin-top: 6em;
+    }
+
+}
+
+  @media(min-width: 1010px){
+      header{
+      background-size: cover;
+      background: url(img/Website-Pics/Banner-1.jpg) no-repeat fixed center;
+      width: auto;
+      height: 600px;
+      overflow: hidden;
+      position: relative;
+    }
+    header:before{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      border-bottom: 96px solid #fff;
+      border-left: 1929px solid transparent;
+    }
+
+    /******** LOGO ********/
+    .headerImg{
+      width: 50%;
+        margin: 13em auto 0;
+    }
+}
+    
